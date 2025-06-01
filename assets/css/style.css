@@ -163,5 +163,18 @@ a {
     box-shadow: -5px 5px 0 0 var(--secondary-color);
 }
 
+/* transform effect */
+.transform-effect {
+    transition: all 0.4s;
+}
 
+.transform-effect:hover {
+    transform: translate(10px, -10px);
+}
+
+/* blog */
+#blog {
+    padding: 100px 0;
+    text-align: center;
+}
 
