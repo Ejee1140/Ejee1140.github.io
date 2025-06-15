@@ -178,3 +178,26 @@ a {
     text-align: center;
 }
 
+/* contact */
+#contact {
+    background-color: var(--background-color);
+    padding: 100[x 0];
+}
+
+#contact .link-contact {
+    color: var(--tertiary-color);
+}
+
+#contact .link-contact:hover {
+    color: var(--primary-color);
+}
+
+#contact .form-control {
+    background-color: transparent;
+    border-color: var(--tertiary-color);
+}
+
+#contact .form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
